@@ -1,0 +1,1 @@
+# sop-exer-comando-terminal-shell-script
