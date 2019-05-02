@@ -61,9 +61,9 @@ Exercício 09
 Exercício 10
 
 ``````````````````````````````````````````````
- Quando utiliza o comando echo|cal>hoje.txt, gera um arquivo tipo txt com nome "hoje" onde
-	tem uma tabela com o mês igual o do horário da máquina. O less permite a
-	visualização do arquivo sem alterá-lo.
+Quando utiliza o comando echo|cal>hoje.txt, gera um arquivo tipo txt com nome "hoje" onde
+tem uma tabela com o mês igual o do horário da máquina. O less permite a
+visualização do arquivo sem alterá-lo.
 ``````````````````````````````````````````````
 Exercício 11
 
@@ -86,7 +86,7 @@ Exercício 12
  Exercício 14
  
 ``````````````````````````````````````````````
-  [root@localhost ~]#  grep "do sul", não encontrou nenhuma cidade não se deve usar aspas para procurar.
+  [root@localhost ~]#  grep "do sul", não encontrou nenhuma cidade não se deve usar " " para procurar.
  ``````````````````````````````````````````````
 Exercício 15
 
@@ -110,7 +110,7 @@ Exercício 15
   Exercício 17
   ``````````````````````````````````````````````
   [root@localhost ~]# gzip balneario.txt renomeou para balneario.txt.gz,
-	utilizei gzip pois o tar nao funcionou
+	utilizei .gzip pois o tar não funcionou
   ``````````````````````````````````````````````
   Exercício 18
   ``````````````````````````````````````````````
@@ -128,16 +128,16 @@ Exercício 15
 ``````````````````````````````````````````````
 Exercício 02
 ``````````````````````````````````````````````
-  [root@localhost ~]#  echo "Digite um numero:"
+  [root@localhost ~]#  echo "Digite um número:"
 	[root@localhost ~]# #read x
-	[root@localhost ~]# echo "Digite outro numero:"
+	[root@localhost ~]# echo "Digite outro número:"
 	[root@localhost ~]# read z
 	[root@localhost ~]# y=$(($x*$z))
 	[root@localhost ~]# echo "Seu resultado $y"
   ``````````````````````````````````````````````
   Exercício 03
 ``````````````````````````````````````````````
-  [root@localhost ~]# echo "Digite um numero: "
+  [root@localhost ~]# echo "Digite um número: "
 	[root@localhost ~]# read x
 	[root@localhost ~]# if [ $x -gt 0 ]; then
    [root@localhost ~]#   #echo "maior que 0"
@@ -160,8 +160,8 @@ Numero: 2
  
 ``````````````````````````````````````````````
 [root@localhost ~]#  #!/usr/bash
-	[root@localhost ~]# echo "1: Calendrio"
-	[root@localhost ~]# echo "2: Listas de arquivos do diretrio"
+	[root@localhost ~]# echo "1: Calendário"
+	[root@localhost ~]# echo "2: Listas de arquivos do diretório"
 	[root@localhost ~]# read x
 	[root@localhost ~]# if [ $x -eq 1 ]; then
     [root@localhost ~]#    echo|cal
@@ -172,5 +172,4 @@ Numero: 2
     [root@localhost ~]#    echo "  " > arquivo2.txt
      [root@localhost ~]#   ls
 [root@localhost ~]#	else
-   [root@localhost ~]#     echo "Voce digitou  errado"
-	fi
+   
